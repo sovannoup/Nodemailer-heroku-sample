@@ -47,7 +47,7 @@ app.post("/send", async (req, res) => {
   console.log("Message sent: %s", info.messageId);
   console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
 
-  res.send('Email Sent!')
+  res.send('success')
 });
 
 /*************************************************/
